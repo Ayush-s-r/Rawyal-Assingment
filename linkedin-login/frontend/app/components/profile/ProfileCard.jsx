@@ -12,7 +12,7 @@ export default function ProfileCard() {
   return (
     <div className="w-80 bg-gray-900 border border-gray-700 rounded-2xl shadow-xl overflow-hidden text-center">
       
-      {/* Header */}
+     
       <div className="bg-gradient-to-r from-blue-600 to-blue-400 p-6">
         <img
           src={user.profilePicture}
@@ -21,7 +21,7 @@ export default function ProfileCard() {
         />
       </div>
 
-      {/* Body */}
+    
       <div className="p-5">
         <h2 className="text-lg font-semibold text-white">
           {user.firstName} {user.lastName}

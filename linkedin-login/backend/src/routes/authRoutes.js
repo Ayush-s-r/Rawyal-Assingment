@@ -31,14 +31,14 @@ router.post("/linkedin", async (req, res) => {
       }
     );
 
-    // ✅ Success
+    
     console.log("Access Token Response:", response.data);
 
     res.json(response.data);
 
   } catch (err) {
-    // ❌ Detailed error logging
-    console.error("❌ LinkedIn Token Error:");
+    
+    console.error(" LinkedIn Token Error:");
     console.error(err.response?.data || err.message);
 
     res.status(500).json({

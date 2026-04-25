@@ -22,7 +22,7 @@ export default function Home() {
           Welcome Back
         </h1>
 
-        {/* Email Login */}
+      
         <form onSubmit={handleLogin} className="space-y-4">
           <input
             type="email"
@@ -44,18 +44,18 @@ export default function Home() {
           </button>
         </form>
 
-        {/* Divider */}
+       
         <div className="flex items-center my-6">
           <div className="flex-1 h-px bg-gray-700"></div>
           <span className="px-3 text-sm text-gray-400">OR</span>
           <div className="flex-1 h-px bg-gray-700"></div>
         </div>
 
-        {/* LinkedIn Login */}
+       
         <LinkedInLoginButton />
       </div>
 
-      {/* Profile */}
+    
       <div className="mt-8">
         <ProfileCard />
       </div>

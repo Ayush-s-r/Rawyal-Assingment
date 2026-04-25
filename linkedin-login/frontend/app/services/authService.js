@@ -9,7 +9,7 @@ export const getAccessToken = async (code) => {
     });
 
     console.log(response.data)
-    return response.data; // contains access_token
+    return response.data; 
   } catch (error) {
     console.error("Error getting access token:", error);
     throw error;

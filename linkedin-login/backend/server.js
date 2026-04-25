@@ -1,5 +1,5 @@
 import dotenv from "dotenv";
-dotenv.config(); // ❗ MUST be at top
+dotenv.config(); 
 
 import app from "./src/app.js";
 
